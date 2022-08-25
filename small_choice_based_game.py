@@ -83,5 +83,7 @@ def end(message):
     print(message, "GOOD JOB!")
     print("Starting game again :)......")
     exit(0)
+if __name__ == '__main__':
+    area_one() # starts from here
 
-area_one() # starts from here
+main()
